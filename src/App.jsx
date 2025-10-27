@@ -76,8 +76,10 @@ export default function App() {
               className="bg-gradient-to-r from-pink-400 via-sky-400 to-blue-500 text-white font-extrabold py-7 px-16 rounded-full shadow-2xl text-3xl border-4 border-white drop-shadow-lg transition-all duration-300 hover:brightness-110 hover:shadow-blue-400 focus:outline-none focus:ring-4 focus:ring-pink-300 flex items-center gap-5 p-10"
             >
               <span className="text-4xl animate-bounce">🎁</span>
-              <span>Descubre el sexo del bebé</span>
-              <span className="text-4xl animate-bounce">👶</span>
+              <span>Descubre el sexo del bebé </span>
+              <span className="text-4xl animate-bounce"> 👶 </span>
+              <span style={{padding: '5px'}}>(LA & Maritza)</span>
+              <span className="text-4xl animate-bounce"> 👇 </span>
             </motion.button>
           </motion.div>
         )}
